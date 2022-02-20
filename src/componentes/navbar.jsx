@@ -1,5 +1,5 @@
 import '../componentes/style.css'
-import { Collapse } from 'bootstrap';
+import { _Collapse } from 'bootstrap';
 function Navbar() {
 
   return (
