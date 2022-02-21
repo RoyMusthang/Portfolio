@@ -6,11 +6,11 @@
 }
 
 .corPrimaria {
-  background-color: rgb(98, 146, 146);
+  background-color: rgb(255, 255, 255);
 }
 
 .corSecundaria {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(255, 255, 255);
 }
 
 p {
@@ -39,7 +39,7 @@ p {
 }
 
 .textoBranco {
-  color: white !important;
+  color: back !important;
 }
 
 .textoFooter {

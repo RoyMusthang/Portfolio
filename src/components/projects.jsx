@@ -1,8 +1,5 @@
-import '../componentes/style.css';
+import '../components/style.css';
 import imageThum from "../images/coding.jpg";
-const tryhackme = [
-  "https://tryhackme.com/badge/727839"
-];
 
 function Projects() {
   return (
@@ -36,7 +33,6 @@ function Projects() {
           </div>
         </div>
       </div >
-      <img src={tryhackme[0]} />
       <section className="jumbotron text-center corPrimaria" id="sobre-mim">
         <div className="container">
           <h2 className="jumbotron-heading titulosBrancos">Sobre mim </h2>

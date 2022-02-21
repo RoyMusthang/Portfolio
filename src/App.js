@@ -1,6 +1,6 @@
-import Navbar from './componentes/navbar';
-import Section from './componentes/section';
-import Projects from './componentes/projects';
+import Navbar from './components/navbar';
+import Section from './components/section';
+import Projects from './components/projects';
 
 function App() {
   return (

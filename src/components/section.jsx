@@ -6,8 +6,6 @@ function Section() {
       <section class="jumbotron text-center corPrimaria">
         <div class="container">
           <img class="foto-perfil" src={imagePerfil} alt="foto de perfil" />
-          <h1 class="jumbotron-heading textoBranco">Josué</h1>
-          <p class="lead textoBranco">Desenvolvedor Web</p>
           <p>
             <a href="#" class="btn btn-dark my-2">Contato</a>
           </p>
