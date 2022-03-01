@@ -1,0 +1,37 @@
+[
+  {
+    "id": "94313731",
+    "name": "app de receita",
+    "price": 232.23,
+    "oldPrice": 349.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/94313731.jpg"
+  },
+  {
+    "id": "94313762",
+    "name": " redux online",
+    "price": 249.99,
+    "oldPrice": 349.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/94313762.jpg"
+  },
+  {
+    "id": "943137XQ",
+    "name": "react testing library",
+    "price": 249.99,
+    "oldPrice": 349.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/943137XQ.jpg"
+  },
+  {
+    "id": "95077714",
+    "name": "trivia game",
+    "price": 199.99,
+    "oldPrice": 279.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/95077714.jpg"
+  },
+  {
+    "id": "95150919",
+    "name": "movie card crud",
+    "price": 199.99,
+    "oldPrice": 259.99,
+    "image": "https://imgcentauro-a.akamaihd.net/230x230/95150919.jpg"
+  }
+]
