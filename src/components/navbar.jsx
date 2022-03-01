@@ -5,7 +5,6 @@ function Navbar() {
   return (
     <nav className="corSecundaria navbar navbar-expand-lg navbar-light">
       <a className="navbar-brand textoBranco" href="#">Josué Lobo</a>
-      <h3 className="position-absolute start-50 translate-middle-x">Desenvolvedor Web</h3>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -25,7 +24,8 @@ function Navbar() {
           </li>
         </ul>
       </div>
-    </nav>)
+    </nav>
+  );
 }
 
 export default Navbar;
