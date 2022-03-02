@@ -1,30 +1,42 @@
-import '../components/style.css'
-import { _Collapse } from 'bootstrap';
+import './Navbar.css'
+import React, { useState } from "react";
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+import { SidebarData } from './SideBarData';
+
 function Navbar() {
+  const [sidebar, setSidebar] = useState(true);
 
+  const showSidebar = () => setSidebar(!sidebar)
   return (
-    <nav className="corSecundaria navbar navbar-expand-lg navbar-light">
-      <a className="navbar-brand textoBranco" href="#">Josué Lobo</a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
-
-        </ul>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link textoBranco" href="#projetos">Projetos</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link textoBranco" href="#contato">Contato</a>
-          </li>
-        </ul>
+    <>
+      <div className='navbar'>
+        <Link to='#' className='menu-bars'>
+          <FaIcons.FaBars onClick={showSidebar} />
+        </Link>
       </div>
-    </nav>
+      <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+        <ul className='nav-menu-items' onClick={showSidebar}>
+          <li className='navbar-toggle'>
+            <Link to='#' className='menu-bars'>
+              <AiIcons.AiOutlineClose />
+            </Link>
+          </li>
+          {SidebarData.map((item, index) => {
+            return (
+              <li key={index} className={item.cName}>
+                <Link to={item.path}>
+                  {item.icon}
+                  <span>{item.title}</span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+
+    </>
   );
 }
 
