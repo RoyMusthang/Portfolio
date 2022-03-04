@@ -26,7 +26,7 @@ function Home() {
                 repeat={Infinity}
               ></TypeAnimation></div>
             <p>I'm passionate about technology, development and
-              compannies that work to contribute to a better digital
+              companies that work to contribute to a better digital
               transformation. I study Web Development at Trybe,
               a school that teaches programming, learning and working.
               I work and believe in actions that can generate a positive impact on people's lives.</p>
