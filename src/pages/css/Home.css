@@ -51,9 +51,7 @@ section .title{
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
-    padding-bottom: 20px;
-    margin-left: 140px;
-    margin-right: 140px;
+    padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
 
