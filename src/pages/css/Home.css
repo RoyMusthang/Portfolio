@@ -46,7 +46,6 @@ section{
     justify-content: space-between;
 }
 section .title{
-    position: relative;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
