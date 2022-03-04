@@ -2,14 +2,19 @@
   background-color: rgb(37, 37, 37);
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
 }
+
+.nav-title {
+  color: white;
+  text-align: center;
+}
+
 
 .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;
-  color: rgb(98, 146, 146);
   background: none;
 }
 

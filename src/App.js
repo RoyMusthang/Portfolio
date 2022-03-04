@@ -1,26 +1,23 @@
 import Navbar from './components/navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-// import Section from './components/section';
-// import Projects from './components/projects';
-// import CarouselFront from './components/carouselFront'
-// import CarouselBack from './components/carouselBack';
-// import Test from './components/test';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (
     <div className="App">
-      {/* <Test /> */}
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' />
+          <Route path='/' exact element={<Home />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
-      {/* <Section /> */}
-      {/* <CarouselFront /> */}
-      {/* <CarouselBack /> */}
-      {/* <Projects /> */}
+
     </div>
   );
 }
