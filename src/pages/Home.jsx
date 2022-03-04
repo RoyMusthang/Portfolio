@@ -18,8 +18,8 @@ function Home() {
                 cursor={true}
                 sequence={[
                   'web developer', 1000,
-                  'hacker', 1000,
-                  'good communicador', 1000,
+                  'CTF player', 1000,
+                  'good communicator', 1000,
                   'self-learner', 1000,
                 ]}
                 wrapper="span"

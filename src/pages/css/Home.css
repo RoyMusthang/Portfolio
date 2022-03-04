@@ -52,59 +52,40 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
     font-family: 'Ubuntu', sans-serif;
 }
-section .title::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 180px;
-    height: 3px;
-    background: #111;
-    transform: translateX(-50%);
-}
-section .title::after{
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    font-size: 20px;
-    color: rgb(98, 146, 146);
-    padding: 0 5px;
-    background: #fff;
-    transform: translateX(-50%);
-}
-
-
-
-.foto-perfil {
-  width: 400px;
-  border-radius: 100%;
-} 
 
 .about .about-content .left{
     width: 45%;
 }
+
 .about .about-content .left img{
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 80%;
 }
+
 .about .about-content .right{
     width: 55%;
 }
+
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .about .about-content .right .text span{
   color: rgb(98, 146, 146);
 }
+
 .about .about-content .right p{
     text-align: justify;
 }
+
 .about .about-content .right a{
     display: inline-block;
     background: rgb(98, 146, 146);
@@ -117,6 +98,7 @@ section .title::after{
     border: 2px solid rgb(98, 146, 146);
     transition: all 0.3s ease;
 }
+
 .about .about-content .right a:hover{
     color: rgb(98, 146, 146);
     background: none;
