@@ -1,5 +1,5 @@
 import './css/Home.css';
-import imagePerfil from '../images/index.jpg'
+import imagePerfil from '../images/royMin.png'
 import TypeAnimation from 'react-type-animation';
 
 function Home() {
