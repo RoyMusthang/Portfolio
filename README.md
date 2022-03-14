@@ -1,8 +1,5 @@
 # Bem-vindo ao meu Portfólio
 
-Este é o código fonte do meu portfólio, usei o notion para a
-idealização e organização, git para versionamento, github para hospedagem de código, react como framework de desenvolvimento, Bootstrap para estilização e heroku para deploy da aplicação.
-
 ## Tools
 
 - Git

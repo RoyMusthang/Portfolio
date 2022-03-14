@@ -19,7 +19,7 @@ function Home() {
                 sequence={[
                   'web developer', 1000,
                   'CTF player', 1000,
-                  'good communicator', 1000,
+                  'freelancer', 1000,
                   'self-learner', 1000,
                 ]}
                 wrapper="span"
